@@ -483,7 +483,7 @@ color: var(--blanco);
     position: fixed;
     display: block;
     width: 5vw;
-    height: vh;
+    height: 5vh;
     top: 1vh;
     right: 0;
     margin-right: 5%;
