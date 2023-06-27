@@ -624,6 +624,18 @@ a:hover {
   min-width: 10vh;
 }
 
+.card_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#cards p {
+  text-align: center;
+  padding: 5%;
+}
+
 
 @media(min-width: 800px){
   #cards{
