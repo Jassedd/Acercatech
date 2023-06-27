@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>git 
-    <title>login in</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="reset" href="reset.css">
-    <link href="style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+<head>
+  <title>ACERCATECH</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="reset" href="reset.css">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   
-  </head>
+</head>
 
-  <body>
-
-    <header class="header">
+<body>     
+<header class="header">
   <button id="abrir" class="abrir-menu" id="abrir"><i class='bx bx-menu'></i></button>
   <nav class="nav">
     <div class="nav__logo1">
@@ -34,20 +33,59 @@
       <li><a href="#contacto" class="nav__links nav__links-mofifier">Contacto</a></li>
   </ul>
   </nav>
-    </header>
+</header>  
   <main>
-    <div id="particles-js"></div>
     <section id="home">
       <div class="home__blue">
+        <script src="particles.min.js"></script>
+        <script src="particlesjs-config.json"></script>
         <div class="home__text"><p><span class="home__hacemos">Hacemos</span><br> TECNOLOGÍA ACCESIBLE<br> PARA TU COMERCIO</p>
-      </div>
+        </div>
         <button class="home__servicios">Servicios</button>
-
+    
         <div class="home__img">
           <img class="home__img-init" src="imagenes home/imagen  inicio.jpg" alt="initial-img">
         </div>
       </div>
-      </section>
+
+   
+      <div class="icon-ws">
+        <svg heigth="50" width="50">
+            <circle cx="25" cy="25" r=22 stroke="white" stroke-width="1" fill="none" ></circle>
+        </svg>
+        <i class='bx bxl-whatsapp'></i>
+               
+      </div>
+    <p class="nr">+34 654 43 432</p>
+
+      <div class="icons">
+          <div class="icons__icon">
+            <svg heigth="40" width="40">
+              <circle cx="20" cy="20" r=19 stroke="white" stroke-width="1" fill="none" ></circle>
+          </svg>
+              <i class='bx bxl-facebook-circle'></i>
+        </div>  
+
+          <div class="icons__icon">
+            <svg heigth="40" width="40">
+              <circle cx="20" cy="20" r=19 stroke="white" stroke-width="1" fill="none" ></circle>
+          </svg>
+              <i class='bx bxl-instagram' ></i>
+          </div>
+
+        <div class="icons__icon">
+          <svg heigth="40" width="40">
+          <circle cx="20" cy="20" r=19 stroke="white" stroke-width="1" fill="none" ></circle>
+        </svg>
+            <i class='bx bxl-twitter'></i>
+        </div>
+     </div>
+      <div class="home__description-container">
+        <div class="home__description"><p>Nos enfocamos en el hacer para crear un mundo más justo
+          con los entornos digitales, ayudando a los comercios 
+          con soluciones basadas en sus necesidades.</p></div>
+      </div>
+    </section>
       <!----------Seccion Cartas---------------->
       <section id="cards">
         <div class="cards__card">
@@ -232,8 +270,6 @@
         
   </main>
   <script src="script.js"></script>
-  <script src="particles.min.js"></script>
-  <script src="particlesjs-config.json"></script>
   </body>
 </html>
   
