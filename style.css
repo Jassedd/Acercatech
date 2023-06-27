@@ -229,7 +229,7 @@ text-align: center;
 z-index: 1;
 }
 
-.home__servicios {
+.button {
 color: var(--blanco);
 background-color: var(--verde);
 width: 12vw;
