@@ -228,7 +228,7 @@ grid-template-rows: repeat(3, 33%);
 text-align: center;
 }
 
-.home__servicios {
+.button {
 color: var(--blanco);
 background-color: var(--verde);
 width: 12vw;
