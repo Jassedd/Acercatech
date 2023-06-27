@@ -547,4 +547,99 @@ a:hover {
 }
 }
 
+<<<<<<< HEAD
 /*
+=======
+  /*     SECTION TEAM   */
+
+  * {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.team__tittle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: nunito;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+
+.team__logo {
+    margin: auto;
+    display: block;
+    width: 20rem; 
+    margin-bottom: 2rem;
+}
+
+
+.team__photos {
+    background-color: #0044c2;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-bottom: 2rem;
+}
+
+.team__text {
+    font-family: nunito;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.team__photo {
+    width: 200px;
+    height: 200px;
+    border-radius:150px;
+    border: 10px solid #38B549;
+}
+
+.team__names {
+    font-family: nunito;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+/*Seccion Cartas*/
+.cards__card{
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+  box-shadow: 6px 6px #b1adad;
+  background-color: #d4d4d4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 20vh;
+  margin: 10vw;
+}
+
+.card__figure{
+  width: 20vh;
+  max-width: 10vw;
+  min-width: 10vh;
+}
+
+
+@media(min-width: 800px){
+  #cards{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 5vw;
+      margin: 0;
+  }
+
+  .cards__card{
+      width: 20vw;
+      margin: 0;
+      
+  }
+}
+>>>>>>> bf7a4a03a09184167ae1f6d64cae68b00ba06cad
