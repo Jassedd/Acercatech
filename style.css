@@ -603,3 +603,40 @@ color: var(--blanco);
     text-align: center;
     padding-bottom: 1rem;
 }
+
+/*Seccion Cartas*/
+.cards__card{
+  border: 1px solid #d4d4d4;
+  border-radius: 15px;
+  box-shadow: 6px 6px #b1adad;
+  background-color: #d4d4d4;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+  width: 20vh;
+  margin: 10vw;
+}
+
+.card__figure{
+  width: 20vh;
+  max-width: 10vw;
+  min-width: 10vh;
+}
+
+
+@media(min-width: 800px){
+  #cards{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding: 5vw;
+      margin: 0;
+  }
+
+  .cards__card{
+      width: 20vw;
+      margin: 0;
+      
+  }
+}
