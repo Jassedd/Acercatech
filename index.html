@@ -1,57 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" src="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-    <title>Acercate</title>
-  </head>
-  <body>
-    <header class="header">
-      <div class="header__logo"></div>
-      <header__nav>
-        <a href="#">Somos</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-      </header__nav>
-    </header>
+<html lang="es">
 
+<head>
+  <title>login in</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="reset" href="reset.css">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  
+</head>
+
+<body>     
+  <div id="particles-js"></div>
+
+<header class="header">
+  <button id="abrir" class="abrir-menu" id="abrir"><i class='bx bx-menu'></i></button>
+  <nav class="nav">
+    <div class="nav__logo1">
+      <img class="nav__img" src="imagenes home/LOGO.png" alt="acercate">
+    </div>
+    <div class="nav__logo2">
+      <img class="nav__img" src="imagenes home/logo-2.png" alt="acercate">
+    </div>
+    
+    <ul class="nav__links" class="repli" id="nav__lista">
+      <button class="cerrar-menu" id="cerrar"><i class='bx bx-x'></i></button>
+      <li><a href="#conocenos" class="nav__links nav__links-mofifier">Conócenos</a></li>
+      <li><a href="#servicios" class="nav__links nav__links-mofifier">Servicios</a></li>
+      <li><a href="#contacto" class="nav__links nav__links-mofifier">Contacto</a></li>
+  </ul>
+  </nav>
+</header>  
+  <main>
     <section id="home">
-      <div>
-        <div class="home__img"><img src="" alt="" /></div>
-        <p class="home__we">Hacemos</p>
-        <h1 class="home__title">TECNOLOGIA ACCESIBLE PARA TU COMERCIO</h1>
-        <button>Servicios</button>
-      </div>
-      <div>
-        <div class="home__socialmedia">
-          <img class="" src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
+      <div class="home__blue">
+        <div class="home__text"><p><span class="home__hacemos">Hacemos</span><br> TECNOLOGÍA ACCESIBLE<br> PARA TU COMERCIO</p>
         </div>
-        <div class="home__whats">
-          <img src="" alt="" /> +34 5678910
-        </div>
-      </div>
-      <p class="home__description"></p>
-    </section>
+        <button class="home__servicios">Servicios</button>
 
-    <section id="services">
-      <div class="services__cards">
-        <div class="cards__impultasetch">
-          <p class="impulsatech__hola"></p>
+        <div class="home__img">
+          <img class="home__img-init" src="imagenes home/imagen  inicio.jpg" alt="initial-img">
         </div>
-        <div></div>
-        <div></div>
       </div>
-    </section>
 
     <!-----SERVICES SECTION -------------->
-
+  <section class="Services">
     <section id="service__impulsatech">
       <div class="conteiner__impulsatech__one">
         <img src="fotos servicios/container__impulsatech__one__img.jpg" alt="image of people width computer">
@@ -163,8 +161,46 @@
         </div>
       </div>
     </section>
+  </section>
 <!---------- FIN SERVICES SECTION ------------>
 
+<!---------- TEAM SECTION ------------>
+    
+    <section class="team">
+      <div class="team__tittle">EQUIPO</div>
+      <img class="team__logo" src="./imagenes web/LOGO.png" alt="logo">
+      <div class="team__photos">
+          <div class="team__developer">
+              <h3 class="team__text">EQUIPO DE DESARROLLO</h3>
+              <img src="./fotos equipo/Emily (1).jpg" alt="Emily" class="team__photo">
+              <p class="team__names">Emily</p>
+              <img src="./fotos equipo/Diego.jpg" alt="Diego" class="team__photo">
+              <p class="team__names">Diego</p>
+          </div>
+          <div class="team__socialmedia">
+              <h3 class="team__text">REDES SOCIALES</h3>
+              <img src="./fotos equipo/luis.jpg" alt="Luis" class="team__photo">
+              <p class="team__names">Luis</p>
+          </div>
+          <div class="team__learn">
+              <h3 class="team__text">EQUIPO DE FORMACIÓN</h3>
+              <img src="./fotos equipo/Adriana.jpg" alt="Adriana" class="team__photo">
+              <p class="team__names">Adriana</p>
+              <img src="./fotos equipo/Jassed.jpg" alt="Jassed" class="team__photo">
+              <p class="team__names">Jassed</p>
+          </div>
+      </div>
+    </section>
+
+<!---------- FIN TEAM SECTION ------------>
+
     <section id="contact"></section>
-  </body>
+ 
+        
+  </main>
+  <script src="script.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="particlesjs-config.json"></script>
+</body>
 </html>
+  
