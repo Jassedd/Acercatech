@@ -548,4 +548,58 @@ color: var(--blanco);
   }
 }
 
-  /*
+  /*     SECTION TEAM   */
+
+  * {
+    font-family: 'Nunito', sans-serif;
+}
+
+
+.team__tittle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: nunito;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+
+}
+
+
+.team__logo {
+    margin: auto;
+    display: block;
+    width: 20rem; 
+    margin-bottom: 2rem;
+}
+
+
+.team__photos {
+    background-color: #0044c2;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    padding-bottom: 2rem;
+}
+
+.team__text {
+    font-family: nunito;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.team__photo {
+    width: 200px;
+    height: 200px;
+    border-radius:150px;
+    border: 10px solid #38B549;
+}
+
+.team__names {
+    font-family: nunito;
+    text-align: center;
+    padding-bottom: 1rem;
+}
