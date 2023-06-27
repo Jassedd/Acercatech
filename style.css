@@ -1,13 +1,10 @@
-* {
-  font-family: 'Nunito', sans-serif;
-}
+
 
 
 .team__tittle {
   text-align: center;
   font-size: 2rem;
   font-weight: 600;
-  font-family: nunito;
   margin-bottom: 1rem;
   padding-top: 1rem;
 
@@ -23,31 +20,58 @@
 
 
 .team__photos {
-  background-color: #0044c2;
+  background-color: #0071BC;
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content:space-evenly;
   padding-bottom: 2rem;
 }
 
+.team__section {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
 .team__text {
-  font-family: nunito;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   padding-top: 2rem;
   margin-bottom: 1rem;
   text-align: center;
 }
 
 .team__photo {
-  width: 200px;
-  height: 200px;
+  width: 15vw;
   border-radius:150px;
   border: 10px solid #38B549;
 }
 
+.team__photo:hover {
+  transform:scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.7)
+}
+
+
 .team__names {
-  font-family: nunito;
   text-align: center;
-  padding-bottom: 1rem;
+  padding-bottom: 1,3rem;
+}
+
+
+@media (max-width: 750px) {
+  .team__photos {
+    background-color: #0071BC;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 2rem;
+  }
+
+  .team__photo {
+    width: 50vw;
+}
 }
