@@ -486,8 +486,8 @@ color: var(--blanco);
     position: fixed;
     display: block;
     width: 5vw;
-    height: 4vh;
-    top: 3vh;
+    height: 3vh;
+    top: 2vh;
     right: 0;
     margin-right: 5%;
     border: 0;
@@ -514,8 +514,23 @@ color: var(--blanco);
     justify-items: center;
   }
 
+  
+
   ul.visible {
     visibility: visible;
+  }
+
+  a {
+    &:after,&:before{
+    content:" ";
+    display: none;
+
+  }
+    
+}
+    
+  a:hover {
+    box-shadow: 1px 1px 20px 1px var(--gris);
   }
 
 }
