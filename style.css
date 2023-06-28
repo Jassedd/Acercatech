@@ -23,12 +23,11 @@ height: 100%;
 
 #particles-js {
   width: 100%;
-  position: absolute;
   height: 60vh;
+  position: absolute;
   z-index: 0;
   }
-
-
+  
 /* botones de abrir y cerrar de la version movil */
 .abrir-menu {
 display: none;
@@ -68,9 +67,14 @@ justify-content: space-around;
 width: 70%;
 height: 80%;
 }
-
+.nav__logo1 {
+  height: 5vh;
+  width: 30vw;
+}
 .nav__logo2 { 
 display: none;
+height: 5vh;
+width: 30vw;
 }
 
 .nav__links {
@@ -242,6 +246,7 @@ border-radius: 2vh;
 font-size: 1.1em;
 z-index: 6;
 margin-bottom: 15%;
+cursor: pointer;
 }
 
 .button:hover {
@@ -381,8 +386,10 @@ stroke-dasharray: 10;
 @media screen and (max-width:780px) {
 
 #particles-js {
-    height: 72vh;
-    }
+  height: 72vh;
+}
+
+
 #home {
   grid-template-rows: 18vh 18vh 20vh 5vh 15vh 20vh;
 }
