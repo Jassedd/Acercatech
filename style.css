@@ -22,11 +22,11 @@ height: 100%;
 }
 
 #particles-js {
-width: 100%;
-position: absolute;
-height: 60vh;
-z-index: 0;
-}
+  width: 100%;
+  position: absolute;
+  height: 60vh;
+  z-index: 0;
+  }
 
 
 /* botones de abrir y cerrar de la version movil */
@@ -380,9 +380,9 @@ stroke-dasharray: 10;
 
 @media screen and (max-width:780px) {
 
-.header {
-  position: sticky;
-}
+#particles-js {
+    height: 72vh;
+    }
 #home {
   grid-template-rows: 18vh 18vh 20vh 5vh 15vh 20vh;
 }
