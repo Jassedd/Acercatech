@@ -380,7 +380,9 @@ stroke-dasharray: 10;
 
 @media screen and (max-width:780px) {
 
-
+.header {
+  position: sticky;
+}
 #home {
   grid-template-rows: 18vh 18vh 20vh 5vh 15vh 20vh;
 }
@@ -491,7 +493,7 @@ ul {
   background-color: var(--blanco);
   font-size: 1.5rem;
   color: var(--azul-oscuro);
-  box-shadow: 1px 1px 20px 1px var(--gris);
+  box-shadow: 1px 1px 5px 1px var(--gris);
 }
 
 .nav__links {
