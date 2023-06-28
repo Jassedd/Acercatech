@@ -131,7 +131,7 @@ content:" ";
 width:10px;
 height:10px;
 position:absolute;
-transition:all .3s;
+transition:all .8s;
 }
 &:after{
 top:-1px;
