@@ -479,7 +479,7 @@ ul {
   left: 0%;
   box-shadow: 1px 1px 20px 1px var(--gris);
 }
-.abrir-menu, .cerrar-menu{
+.abrir-menu, .cerrar-menu {
   position: sticky;
   display: block;
   width: 5vw;
@@ -489,21 +489,18 @@ ul {
   margin-right: 5%;
   border: 0;
   background-color: var(--blanco);
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--azul-oscuro);
-}
-
-.abrir-menu, .cerrar-menu:hover {
-  cursor: pointer;
   box-shadow: 1px 1px 20px 1px var(--gris);
 }
+
 .nav__links {
   border-radius: 0%;
   text-align: center;
   width: 100%;
   margin-top: 5%;
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
 .nav__links-mofifier {
