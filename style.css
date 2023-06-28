@@ -484,8 +484,8 @@ ul {
 .abrir-menu, .cerrar-menu {
   position: sticky;
   display: block;
-  width: 5vw;
-  height: 5vh;
+  width: 6vw;
+  height: 4vh;
   top: 1vh;
   right: 0;
   margin-right: 5%;
