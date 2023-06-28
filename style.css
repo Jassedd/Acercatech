@@ -68,13 +68,13 @@ width: 70%;
 height: 80%;
 }
 .nav__logo1 {
-  height: 5vh;
-  width: 30vw;
+  height: 50%;
+  width: 35%;
 }
 .nav__logo2 { 
 display: none;
-height: 5vh;
-width: 30vw;
+height: 50%;
+width: 35%;
 }
 
 .nav__links {
@@ -389,6 +389,10 @@ stroke-dasharray: 10;
   height: 72vh;
 }
 
+.nav__logo1, .nav__logo2 {
+  width: 55vw;
+  margin-left: 5%;
+}
 
 #home {
   grid-template-rows: 18vh 18vh 20vh 5vh 15vh 20vh;
@@ -451,6 +455,7 @@ stroke-dasharray: 10;
   grid-row: 2/3;
   align-self: center;
   width: 100%;
+  margin-top: 7vh;
   
 }
 
@@ -542,6 +547,9 @@ a:hover {
 
 @media screen and (max-width:480px) {
 .nav__links {
+  font-size: 1em;
+}
+.home__text {
   font-size: 1em;
 }
 
