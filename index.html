@@ -2,163 +2,183 @@
 <html lang="es">
 
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Acercate</title>
+    <title>login in</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="reset" href="reset.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  
   </head>
+
   <body>
+  <div id="particles-js"></div>
+
     <header class="header">
-      <div class="header__logo"></div>
-      <header__nav>
-        <a href="#">Somos</a>
-        <a href="#">Servicios</a>
-        <a href="#">Contacto</a>
-      </header__nav>
+      <button id="abrir" class="abrir-menu" id="abrir"><i class='bx bx-menu'></i></button>
+      <nav class="nav">
+        <div class="nav__logo1">
+          <img class="nav__img" src="imagenes home/LOGO.png" alt="acercate">
+        </div>
+        <div class="nav__logo2">
+          <img class="nav__img" src="imagenes home/logo-2.png" alt="acercate">
+        </div>
+    
+      <ul class="nav__links" class="repli" id="nav__lista">
+        <button class="cerrar-menu" id="cerrar"><i class='bx bx-x'></i></button>
+        <li><a href="#conocenos" class="nav__links nav__links-mofifier">Conócenos</a></li>
+        <li><a href="#servicios" class="nav__links nav__links-mofifier">Servicios</a></li>
+        <li><a href="#contacto" class="nav__links nav__links-mofifier">Contacto</a></li>
+      </ul>
+      </nav>
     </header>
-
+  <main>
     <section id="home">
-      <div>
-        <div class="home__img"><img src="" alt="" /></div>
-        <p class="home__we">Hacemos</p>
-        <h1 class="home__title">TECNOLOGIA ACCESIBLE PARA TU COMERCIO</h1>
-        <button>Servicios</button>
+      <div class="home__blue">
+        <div class="home__text"><p><span class="home__hacemos">Hacemos</span><br> TECNOLOGÍA ACCESIBLE<br> PARA TU COMERCIO</p>
       </div>
-      <div>
-        <div class="home__socialmedia">
-          <img class="" src="" alt="" />
-          <img src="" alt="" />
-          <img src="" alt="" />
-        </div>
-        <div class="home__whats">
-          <img src="" alt="" /> +34 5678910
-        </div>
-      </div>
-      <p class="home__description"></p>
-    </section>
+        <button class="home__servicios">Servicios</button>
 
-    <section id="services">
-      <div class="services__cards">
-        <div class="cards__impultasetch">
-          <p class="impulsatech__hola"></p>
+        <div class="home__img">
+          <img class="home__img-init" src="imagenes home/imagen  inicio.jpg" alt="initial-img">
         </div>
-        <div></div>
-        <div></div>
       </div>
-    </section>
+      </section>
 
-    <section id="service__impulsatech">
-      <div class="conteiner__impulsatech__one">
-        <img src="imagenes/container__impulsatech__one__img.jpg" alt="image of people width computer">
+    <!-----SERVICES SECTION -------------->
+  <section id="services">
+    <section class="service">
+      <div class="service__container__one">
+        <img class="service__img" src="imagenes services/IMAGEN IMPUSLATE.png" alt="image of people width computer">
       </div>
-      <div class="container__impulsatech__two">
-        <h2>Impulsatech</h2>
-        <div class="container__impulsatech__two__paragraph__1">
-          <h3>Creación de sitios web</h3>
-          <p>Diseñamos y desarrollamos sitios web profesionales y atractivos que reflejan 
+      <div class="service__container__two">
+        <h2 class="service__title">IMPULSATE&#60;CH&#62;</h2>
+        <p class="service__text">Nuestra oferta de servicios integrales de creación de páginas web, redes sociales 
+          y gestión digital está diseñada para ayudar a su comercio a (entrar en el mundo digital, acercándose a sus 
+          antiguos y nuevos clientes, haciendo que su empresa aumente sus ventas!) cerrar la brecha digital y prosperar 
+          en el mundo en línea.<br><br>
+        </p>
+        <h3 class="service__subtitle">Creación de sitios web</h3>
+        <p class="service__text">Diseñamos y desarrollamos sitios web profesionales y atractivos que reflejan 
             la identidad de su empresa. Desde sitios web informativos hasta tiendas en línea 
             completas.
-          </p>
-        </div>
-        <div class="container__impulsatech__two__paragraph__2">
-          <h3>Redes sociales</h3>
-          <p>Las redes sociales se han convertido en una herramienta invaluable para 
-            las empresas en la era digital. Creamos estrategias de contenido atractivas 
-            y diseñamos campañas publicitarias eficaces para aumentar su visibilidad, atraer 
-            a sus clientes y generar más ventas, engagement, etc.
-          </p>
-        </div>
-        <div class="container__impulsatech__two__paragraph__3">
-          <h3>Gestión digital</h3>
-          <p>La gestión digital abarca aspectos clave como la optimización de motores de búsqueda 
-            (SEO), el marketing por correo electrónico, la gestión de reputación en línea y 
-            el análisis de datos. Nuestro equipo experto en gestión digital se encargará 
-            de optimizar su presencia en línea.
-          </p>
-        </div>
-        <button class="contacto">
+        </p>
+        <h3 class="service__subtitle">Redes sociales</h3>
+        <p class="service__text">Las redes sociales se han convertido en una herramienta invaluable para 
+          las empresas en la era digital. Creamos estrategias de contenido atractivas 
+          y diseñamos campañas publicitarias eficaces para aumentar su visibilidad, atraer 
+          a sus clientes y generar más ventas, engagement, etc.
+        </p>
+        <h3 class="service__subtitle">Gestión digital</h3>
+        <p class="service__text">La gestión digital abarca aspectos clave como la optimización de motores de búsqueda 
+          (SEO), el marketing por correo electrónico, la gestión de reputación en línea y 
+          el análisis de datos. Nuestro equipo experto en gestión digital se encargará 
+          de optimizar su presencia en línea.
+        </p>
+        <button class="button">
           <p>contactar</p>
         </button>
       </div>
     </section>
-
-
-    <section id="sercice__mercadeatech">
-      <div class="coteiner__mercadeatech">
-        <div class="conteiner__mercadeatech__one">
-          <img src="imagenes/container__mercadeatech__one__img.jpg" alt="map img">
+  
+  
+    <section id="services">
+      <section class="service">
+        <div class="service__container__one__blue">
+          <img class="service__img__blue" src="imagenes services/IMAGEN mercadeate.jpg" alt="image of people width computer">
         </div>
-        <div class="container__mercadeatech__two">
-          <h2>Mercadeatech</h2>
-          <div class="container__mercadeatech__two__paragraph__1">
-            <p>Diseñado específicamente para integrar al mercado digital a los pequeños 
-              comercios de la comunidad y servir como enlace entre ellos y los grandes 
-              comercios.
-            </p>
-          </div>
-          <div class="container__mercadeatech__two__paragraph__2">
-            <h3>Integración al mercado digital de pequeños comercios de la comunidad</h3>
-            <p> Entendemos que muchos pequeños comercios enfrentan desafíos para establecer 
-              su presencia en línea y aprovechar las oportunidades que ofrece el mercado 
-              digital. Nuestro servicio de directorio les brinda la plataforma y visibilidad 
-              necesarias para expandir su alcance y conectarse con una audiencia más amplia.
-            </p>
-          </div>
-          <div class="container__impulsatech__two__paragraph__3">
-            <h3>Enlace entre pequeños y grandes comercios</h3>
-            <p> Reconocemos la importancia de fomentar la colaboración y el crecimiento 
-            conjunto entre pequeños y grandes comercios. Nuestro servicio de directorio actúa 
-            como un puente entre estos dos segmentos comerciales, facilitando la conexión 
-            y colaboración entre ellos. A través de nuestro directorio, los pequeños comercios 
-            pueden establecer alianzas estratégicas, negociar acuerdos y aprovechar 
-            las oportunidades de crecimiento que surgen al trabajar junto a los grandes 
-            comercios.
-            </p>
-          </div>
-          <button class="contacto">
+        <div class="service__container__two__blue">
+          <h2 class="service__title__white">MERCADEATE-CH</h2>
+          <p class="service__text__white">Diseñado específicamente para integrar al mercado digital a los pequeños comercios de la comunidad y 
+            servir como enlace entre ellos y los grandes comercios.<br><br>
+          </p>
+          <h3 class="service__subtitle__white">Integración al mercado digital 
+            de pequeños comercios de la comunidad:</h3>
+          <p class="service__text__white">Entendemos que muchos pequeños comercios enfrentan desafíos para establecer su presencia en línea 
+            y aprovechar las oportunidades que ofrece el mercado digital. Nuestro servicio de directorio les brinda la plataforma 
+            y visibilidad necesarias para expandir su alcance y conectarse con una audiencia más amplia.
+          </p>
+          <h3 class="service__subtitle__white">Enlace entre pequeños y grandes comercios:</h3>
+          <p class="service__text__white">Reconocemos la importancia de fomentar la colaboración y el crecimiento conjunto entre pequeños 
+            y grandes comercios. Nuestro servicio de directorio actúa como un puente entre estos dos segmentos comerciales, facilitando 
+            la conexión y colaboración entre ellos. A través de nuestro directorio, los pequeños comercios pueden establecer alianzas 
+            estratégicas, negociar acuerdos y aprovechar las oportunidades de crecimiento que surgen al trabajar junto a los grandes comercios.
+          </p>
+          <button class="button">
             <p>contactar</p>
           </button>
         </div>
+      </section>
+  
+    
+      <section id="services">
+        <section class="service">
+          <div class="service__container__one">
+            <img class="service__img" src="imagenes services/IMAGEN FORMACIÓN.png" alt="image of people width computer">
+          </div>
+          <div class="service__container__two">
+            <h2 class="service__title">FORMATE-CH</h2>
+            <p class="service__text">Está diseñado para brindar acompañamiento y capacitación en la autogestión de redes 
+              sociales y el mantenimiento básico de la web.<br><br>
+            </p>
+            <h3 class="service__subtitle"> Acompañamiento para la autogestión de redes sociales:</h3>
+            <p class="service__text">Nuestro servicio de Formación Tech ofrece acompañamiento y capacitación personalizada 
+              en la gestión de redes sociales. Le brindaremos las herramientas y estrategias necesarias para crear contenido atractivo, 
+              establecer una comunidad en línea, gestionar la interacción con los seguidores y utilizar las mejores prácticas en marketing digital.
+            </p>
+            <h3 class="service__subtitle">Mantenimiento básico del sitio web:</h3>
+            <p class="service__text">Le proporcionará los conocimientos necesarios para realizar el mantenimiento básico de su sitio web. Le enseñaremos 
+              cómo realizar actualizaciones de contenido, optimizar el rendimiento, realizar copias de seguridad y solucionar problemas comunes. Además, 
+              le brindaremos orientación sobre las mejores prácticas de diseño web y cómo mejorar la usabilidad y la experiencia del usuario.
+            </p>
+            <button class="button">
+              <p>contactar</p>
+            </button>
+          </div>
+        </section>
+    </section>
+
+<!---------- TEAM SECTION ------------>
+    
+    <section class="team">
+      <div class="team__tittle">EQUIPO</div>
+      <img class="team__logo" src="./imagenes web/LOGO.png" alt="logo">
+      <div class="team__photos">
+          <div class="team__developer">
+              <h3 class="team__text">EQUIPO DE DESARROLLO</h3>
+              <img src="./fotos equipo/Emily (1).jpg" alt="Emily" class="team__photo">
+              <p class="team__names">Emily</p>
+              <img src="./fotos equipo/Diego.jpg" alt="Diego" class="team__photo">
+              <p class="team__names">Diego</p>
+          </div>
+          <div class="team__socialmedia">
+              <h3 class="team__text">REDES SOCIALES</h3>
+              <img src="./fotos equipo/luis.jpg" alt="Luis" class="team__photo">
+              <p class="team__names">Luis</p>
+          </div>
+          <div class="team__learn">
+              <h3 class="team__text">EQUIPO DE FORMACIÓN</h3>
+              <img src="./fotos equipo/Adriana.jpg" alt="Adriana" class="team__photo">
+              <p class="team__names">Adriana</p>
+              <img src="./fotos equipo/Jassed.jpg" alt="Jassed" class="team__photo">
+              <p class="team__names">Jassed</p>
+          </div>
       </div>
     </section>
 
-    <section id="service__formatech">
-      <div class="coteiner__formatech">
-        <div class="conteiner__formatech__one">
-          <img src="imagenes/container__formatech__one__img.jpg" alt="two old people learning about digital resurces img">
-        </div>
-        <div class="container__formatech__two">
-          <h2>Formatech</h2>
-          <div class="container__formatech__two__paragraph__1">
-            <p>Está diseñado para brindar acompañamiento y capacitación en la autogestión 
-              de redes sociales y el mantenimiento básico de la web.
-            </p>
-          </div>
-          <div class="container__formatech__two__paragraph__2">
-            <h3>Acompañamiento para la autogestión de redes sociales</h3>
-            <p>Nuestro servicio de Formación Tech ofrece acompañamiento y capacitación 
-              personalizada en la gestión de redes sociales. Le brindaremos las herramientas 
-              y estrategias necesarias para crear contenido atractivo, establecer una comunidad
-              en línea, gestionar la interacción con los seguidores y utilizar las mejores prácticas 
-              en marketing digital.
-            </p>
-          </div>
-          <div class="container__formatech__two__paragraph__3">
-            <h3>Mantenimiento básico del sitio web</h3>
-            <p> Le proporcionará los conocimientos necesarios para realizar el mantenimiento 
-            básico de su sitio web. Le enseñaremos cómo realizar actualizaciones de contenido, 
-            optimizar el rendimiento, realizar copias de seguridad y solucionar problemas 
-            comunes. Además, le brindaremos orientación sobre las mejores prácticas de 
-            diseño web y cómo mejorar la usabilidad y la experiencia del usuario.
-            </p>
-          </div>
-          <button class="contacto2">
-            <p>contactar</p>
-          </button>
-        </div>
-      </div>
-    </section>
+<!---------- FIN TEAM SECTION ------------>
 
-    <section id="contact"></section>
+    <section id="contact"></section> 
+        
+        
+  </main>
+  <script src="script.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="particlesjs-config.json"></script>
   </body>
 </html>
+  
