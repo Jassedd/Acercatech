@@ -674,6 +674,7 @@ h4{
 #cards p {
   text-align: center;
   padding: 5%;
+  font-size: clamp(1rem, 1.2vw, 1.5rem);
 }
 
 
@@ -688,7 +689,7 @@ h4{
 
   .cards__card{
       width: 25vw;
-      height: 30vw;
+      height: 35vw;
       margin: 0;
       
   }
