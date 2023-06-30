@@ -534,11 +534,11 @@ a {
   display: none;
 
 }
-
-
-
+  
+}
+  
 a:hover {
-box-shadow: 1px 1px 20px 1px var(--gris);
+  box-shadow: 1px 1px 20px 1px var(--gris);
 }
 
 }
@@ -547,16 +547,16 @@ box-shadow: 1px 1px 20px 1px var(--gris);
 
 @media screen and (max-width:480px) {
 .nav__links {
-font-size: 1em;
+  font-size: 1em;
 }
 .home__text {
-font-size: 1em;
+  font-size: 1em;
 }
 
 }
   /*     SECTION services   */
 
-.service {
+  .service {
     display: flex;
     flex-direction:row;
     justify-content: center;
@@ -624,7 +624,7 @@ font-size: 1em;
 
 }
 
-.service__title__white {
+.service__title__white{
     font-size: 4rem;
     margin-top: 1%;
     padding: 5%;
