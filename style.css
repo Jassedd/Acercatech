@@ -748,17 +748,17 @@ a:hover {
 
 }
 
-h4{
-  font-size: clamp(1.5rem, 2.5vw, 2.5rem)
+.card__h4{
+  font-size: clamp(1rem, 2.5vw, 2.5rem)
 }
 
-p{
+.card__p{
   font-size: clamp(1rem, 2vw, 2rem);
   margin-top: 1vw;
   text-align: center;
 }
 
-button{
+.card__button{
   width: 20vh;
   height: 5vh;
   border-radius: 5px;
@@ -767,7 +767,7 @@ button{
   color: white;
   font-size: clamp(0.5rem, 1.5vw, 1.5rem)
 }
-button:hover{
+.card__button:hover{
   background-color:#118020;
 }
 
