@@ -7,6 +7,9 @@
   --azul: #4977CC;
   --azul-oscuro: #0071BC;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   font-family: 'Nunito', sans-serif;
@@ -808,9 +811,15 @@ a:hover {
   }
 
   .cards__card{
-      width: 20vw;
       margin: 10px;
       width: 50vh;
       padding: 10px;
+      height: 40vw;
+  }
+  .card__boton{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 10vh;
   }
 }
