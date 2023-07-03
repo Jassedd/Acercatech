@@ -385,7 +385,8 @@ stroke-dasharray: 10;
 
 @media screen and (max-width:1300px) {
 .home__img {
-  height: 70%;
+  height: 60%;
+  width: 90%;
 }
 .nr {
   margin-left: 12%;
