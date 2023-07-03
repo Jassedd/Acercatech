@@ -1046,6 +1046,7 @@ ul.visible {
 }
 
 .logo{
+    width: 35vw;
     justify-content: center;
     margin: 3%;
 }
