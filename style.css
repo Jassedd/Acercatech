@@ -1001,6 +1001,20 @@ ul.visible {
     margin-bottom: 2em;
 }
 
+.form__button {
+  width: 20vh;
+  height: 6vh;
+  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+  color: var(--blanco);
+  background-color: var(--verde);
+  border: none;
+  border-radius: 2vh;
+  font-size: 1.1em;
+  cursor: pointer;
+  display: block;
+}
+
+
 #cuentanos{
     width: 0.5em;
     height: 0.5em;
