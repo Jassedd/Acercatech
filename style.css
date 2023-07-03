@@ -989,6 +989,7 @@ ul.visible {
     justify-content: center;
     margin: 10px 3% 1em;
     margin-top: 10%;
+    margin-left: 10%;
   }
 
 .llamanos {
@@ -1032,10 +1033,8 @@ ul.visible {
     align-items: center;
 }
 
-.circle{
-    background-color: rgb(154, 162, 243);
-    width: 350px;
-    height: 350px;
+.foto-equipo{
+    width: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1044,11 +1043,7 @@ ul.visible {
     border-radius: 20%;
 }
 
-.circle > .foto-equipo{
-    width: 100%;
-    height: 100%;
-    border-radius: 20%;
-}
+
 
 .logo-social{
     margin-top: 0.5vh;
@@ -1090,4 +1085,42 @@ ul.visible {
     color: white;
     display: flex;
     justify-content: space-between;
+    }
+
+    .form__button{
+      width: 15vh;
+      height: 5vh;
+      font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+      color: var(--blanco);
+      background-color: var(--verde);
+      border: none;
+      border-radius: 2vh;
+      font-size: 1.1em;
+      cursor: pointer;
+      margin: auto;
+    }
+
+
+    @media (max-width: 750px) {
+    .form-circle {
+      flex-direction: column;
+    }
+
+      .logo{
+        width: 70vw;
+        margin: auto;
+    }
+
+    .form{
+      width: 70vw;
+      height: 70vh;
+  }
+
+  .foto-equipo{
+    width: 65vw;
+  }
+
+  .content-circle{
+    margin-top: 0;
+}
     }
