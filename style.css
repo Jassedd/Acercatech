@@ -1042,19 +1042,17 @@ ul.visible {
 
 .logo-social{
     margin-top: 0.5vh;
-    justify-content: flex-end;
 }
 
 .logo{
-    width: 35vw;
+    width: 30vw;
     justify-content: center;
     margin: 3%;
 }
 
 .social-media{
-    background-color: rgb(165, 172, 165);
     display:flex;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .face{
