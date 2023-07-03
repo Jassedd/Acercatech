@@ -860,6 +860,9 @@ ul.visible {
   }
 }
 
+
+/* ------------------ SECTION CONTACTO FOOTER ------------  */
+
 .content-footer{
     display: flex;
     flex-direction: column;
@@ -877,6 +880,7 @@ ul.visible {
     align-items: center;
     justify-content: center;
     margin: 10px 3% 1em;
+    margin-top: 10%;
 }
 
 .llamanos {
@@ -913,6 +917,7 @@ ul.visible {
 }
 
 .content-circle{
+    margin-top: 10%;
     display: flex;
     flex-direction: column;
     width: 100%;
