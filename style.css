@@ -790,8 +790,6 @@ a:hover {
   align-self: center;
   border-radius: 2vh;
   font-size: 1.1em;
-  z-index: 6;
-  margin-bottom: 15%;
   cursor: pointer;
 }
 .card__button:hover{
@@ -832,15 +830,22 @@ a:hover {
       flex-direction: column;
       margin: 10px;
       padding: 10px;
+      padding-top: 20px;
       height: 40vw;
-      width: 50vh;
+      width: 50vw;
   }
 
-  .card__boton{
+  .card__button{
     display: flex;
     justify-content: center;
     align-items:center;
-    margin-top: 10vh;
-  }
+    position: absolute;
+    transform: translateY(30vw);
 
+  }
+  
+  .card__p{
+    margin-bottom: 10%;
+    text-align: center;
+  }
 }
