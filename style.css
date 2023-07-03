@@ -249,6 +249,7 @@ border-radius: 2vh;
 font-size: 1.3em;
 z-index: 6;
 margin-bottom: 15%;
+border: var(--blanco);
 cursor: pointer;
 font-weight: 500;
 }
@@ -277,14 +278,13 @@ height: 50px;
 border-radius: 50%;
 transition: all .8s;
 cursor: pointer;
-grid-column: 6/7;
-justify-self: end;
+grid-column: 5/7;
+justify-self: start;
 grid-row: 4/5;
 align-self: end;
-margin-bottom: 5%;
+margin-bottom: 2%;
 background-color: var(--verde);
 z-index: 4;
-
 }
 
 .icon-ws:hover {
@@ -313,29 +313,29 @@ font-size: 2rem;
 
 .nr {
 font-size: 1em;
-grid-column: 7/9;
+grid-column: 5/9;
 justify-self: start;
 grid-row: 4/5;
 align-self: end;
-margin-bottom: 5%;
+margin-bottom: 2%;
+margin-left: 7%;
 }
 
 .icons {
 width: 100%;
 display: flex;
-grid-column: 7/8;
+grid-column: 5/8;
 grid-row: 4/5;
 gap: 1em;
 align-content: start;
 justify-content: start;
-margin-top: 5%;
-margin-left: -10%;
+margin-top: 1%;
 }
 
 .icons__icon {
 position: relative;
-width: 40px;
-height: 40px;
+width: 50px;
+height: 50px;
 border-radius: 50%;
 transition: all .8s;
 cursor: pointer;
@@ -387,6 +387,10 @@ stroke-dasharray: 10;
 .home__img {
   height: 60%;
 }
+.nr {
+  margin-left: 12%;
+}
+
 
 }
 
@@ -394,6 +398,9 @@ stroke-dasharray: 10;
 
 #particles-js {
   height: 72vh;
+}
+.nr {
+  margin-left: 0%;
 }
 
 .nav__logo1, .nav__logo2 {
