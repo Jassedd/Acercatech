@@ -252,10 +252,14 @@ margin-bottom: 15%;
 border: var(--blanco);
 cursor: pointer;
 font-weight: 500;
+display: grid;
 }
 a {
   text-decoration: none;
   color: var(--blanco);
+  grid-column: 1/2;
+  grid-row: 1/2;
+  align-self: center;
 }
 .button:hover {
 border: 1px solid;
@@ -547,7 +551,7 @@ ul.visible {
   visibility: visible;
 }
 
-a {
+.nav__links-mofifier {
   &:after,&:before{
   content:" ";
   display: none;
@@ -556,7 +560,7 @@ a {
   
 }
   
-a:hover {
+.nav__links-mofifier:hover {
   box-shadow: 1px 1px 20px 1px var(--gris);
 }
 
@@ -680,6 +684,7 @@ a:hover {
     color: white;
 
 }
+
 
 /*
   /*     SECTION TEAM   */
