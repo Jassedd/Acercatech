@@ -822,15 +822,19 @@ a:hover {
   }
 
   .cards__card{
+      display: flex;
+      flex-direction: column;
       margin: 10px;
-      width: 50vh;
       padding: 10px;
       height: 40vw;
+      width: 50vh;
   }
+
   .card__boton{
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: center;
+    align-items:center;
     margin-top: 10vh;
   }
+
 }
