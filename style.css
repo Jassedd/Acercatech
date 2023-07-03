@@ -399,7 +399,7 @@ stroke-dasharray: 10;
 .home__text {
   font-size: 2em;
 
-  }
+}
 
 }
 
@@ -686,7 +686,7 @@ ul.visible {
 }
 
 
-<<<<<<< HEAD
+
 /* INICIO MEDIA QUERIES SERVICES*/
 
 @media (max-width:950px) {
@@ -783,8 +783,6 @@ ul.visible {
 /* FIN MEDIA QUERIES SERVICES*/
 
 
-=======
->>>>>>> 522477b77772a1c3028513a007c3cbc5161ef2d6
 /*
   /*     SECTION TEAM   */
 
@@ -974,7 +972,7 @@ ul.visible {
     justify-content: center;
     margin: 10px 3% 1em;
     margin-top: 10%;
-}
+  }
 
 .llamanos {
     margin-top: 2%;
