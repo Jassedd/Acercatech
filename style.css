@@ -999,6 +999,7 @@ ul.visible {
     margin: 2.5em;
     margin-top: 2em;
     margin-bottom: 2em;
+    font-weight: bold;
 }
 
 .form__button {
@@ -1105,13 +1106,18 @@ ul.visible {
 
     .form{
       width: 70vw;
-      height: 70vh;
-     
+      height: 70vh; 
   }
 
     .logo {
       width: 70vw;
     }
+
+    .footer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      }
 
     }
 
