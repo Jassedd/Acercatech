@@ -825,6 +825,7 @@ ul.visible {
     justify-content: center;
     text-align: center;
     text-decoration: none;
+    align-items: center;
 }
 
 @media(min-width: 800px){
