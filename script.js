@@ -18,3 +18,8 @@ abrir.addEventListener("click", () => {
 cerrar.addEventListener("click", () => {
     ul .classList.remove("visible");
 })
+
+/*  ALERT AL ENVIAR EL FORMULARIO */
+function mialerta() {  
+    alert("Gracias por confiar en ACERCATECH. Nos pondremos en contacto contigo lo antes posible.");
+} 
