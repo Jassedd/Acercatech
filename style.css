@@ -493,14 +493,15 @@ stroke-dasharray: 10;
   grid-column: 1/2;
   justify-self: center;
   grid-row: 5/6;
-  align-self: center;
+  align-self: end;
+  
 }
 
 .nr {
   grid-column: 2/6;
   justify-self: start;
   grid-row: 5/6;
-  align-self: center;
+  align-self: end;
   margin-top: 5%;
 }
 
@@ -526,7 +527,7 @@ ul {
 .abrir-menu, .cerrar-menu {
   position: sticky;
   display: block;
-  width: 6vw;
+  width: auto;
   height: 4vh;
   top: 1vh;
   right: 0;
@@ -585,6 +586,26 @@ ul.visible {
 }
 .home__text {
   font-size: 1em;
+}
+}
+@media screen and (max-width:330px) {
+  .nav__links {
+    font-size: .6em;
+}
+.button {
+  width: 34vw;
+}
+
+.icons {
+  gap: 0;
+  grid-column: 4/7;
+}
+.nr {
+margin-left: 5%;
+margin-bottom: 5%;
+}
+.home__description-container {
+  height: auto;
 }
 
 
