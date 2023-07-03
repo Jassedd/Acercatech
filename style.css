@@ -123,7 +123,7 @@ color: var(--blanco);
 }
 
 /* MOVIMIENTO de la barras verdes alrededor de conócenos, servicios y contactos */
-a {
+.nav__links-mofifier {
 cursor:pointer;
 position:relative;
 border-top-right-radius:10px;
@@ -570,6 +570,7 @@ a:hover {
 .home__text {
   font-size: 1em;
 }
+
 
 }
   /*     SECTION services   */
