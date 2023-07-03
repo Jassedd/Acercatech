@@ -726,7 +726,7 @@ ul.visible {
 }
 
 .service__title {
-  font-size: 6vw;
+  font-size: 10vw;
   text-align: center;
 }
 
@@ -739,7 +739,7 @@ ul.visible {
 }
 
 .service__text {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 5%;
   line-height: 150%; 
   text-align: left;
@@ -770,11 +770,11 @@ ul.visible {
 
 .service__title__white {
   text-align: center;
-  font-size: 6vw;
+  font-size: 9vw;
   text-align: center;
 }
 .service__subtitle__white{
-  font-size: 3vh;
+  font-size: 4vh;
   text-align:left;
   margin-left: 5%;
   line-height: 150%;
@@ -782,7 +782,7 @@ ul.visible {
 }
 
 .service__text__white {
-  font-size: 2rem;
+  font-size: 1rem;
   margin: 5%;
   line-height: 150%; 
   text-align: left;
@@ -1123,4 +1123,15 @@ ul.visible {
   .content-circle{
     margin-top: 0;
 }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .llamanos {
+    margin-top: 2%;
+    font-size:x-large;
+    font-weight: 600;
+  }
     }
