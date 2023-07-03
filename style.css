@@ -30,6 +30,7 @@ height: 100%;
   position: absolute;
   z-index: 0;
   }
+ 
   
 /* botones de abrir y cerrar de la version movil */
 .abrir-menu {
@@ -720,7 +721,7 @@ ul.visible {
 }
 
 .service__subtitle {
-  font-size: 3vh;
+  font-size: 4vh;
   text-align:left;
   margin-left: 5%;
   line-height: 150%;
@@ -783,7 +784,6 @@ ul.visible {
 /* FIN MEDIA QUERIES SERVICES*/
 
 
-/*
   /*     SECTION TEAM   */
 
   .team__tittle {
@@ -886,16 +886,13 @@ ul.visible {
   font-size: clamp(0.5rem, 1.5vw, 1.5rem);
   color: var(--blanco);
   background-color: var(--verde);
-  grid-column: 5/6;
-  grid-row: 2/3;
-  justify-self: end;
-  align-self: center;
+  border: none;
   border-radius: 2vh;
   font-size: 1.1em;
   cursor: pointer;
 }
 .card__button:hover{
-  background-color:#118020;
+  border:solid 1px 
 }
 
 .cards__card{
@@ -917,6 +914,16 @@ ul.visible {
   min-width: 10vh;
 }
 
+.button__link{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    align-items: center;
+}
 
 @media(min-width: 800px){
   #cards{
@@ -1075,6 +1082,3 @@ ul.visible {
     display: flex;
     justify-content: space-between;
     }
-
-
-
