@@ -538,6 +538,10 @@ ul {
   box-shadow: 1px 1px 5px 1px var(--gris);
 }
 
+.cerrar-menu {
+ margin-right: 0%;
+}
+
 .nav__links {
   border-radius: 0%;
   text-align: center;
@@ -549,13 +553,13 @@ ul {
 
 .nav__links-mofifier {
   width: 100%;
-  justify-items: center;
 }
 
 
 
 ul.visible {
   visibility: visible;
+  font-size: .9em;
 }
 
 .nav__links-mofifier {
