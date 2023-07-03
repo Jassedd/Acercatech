@@ -246,10 +246,11 @@ grid-row: 2/3;
 justify-self: start;
 align-self: end;
 border-radius: 2vh;
-font-size: 1.1em;
+font-size: 1.3em;
 z-index: 6;
 margin-bottom: 15%;
 cursor: pointer;
+font-weight: 500;
 }
 a {
   text-decoration: none;
