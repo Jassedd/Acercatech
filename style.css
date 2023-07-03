@@ -30,6 +30,7 @@ height: 100%;
   position: absolute;
   z-index: 0;
   }
+ 
   
 /* botones de abrir y cerrar de la version movil */
 .abrir-menu {
@@ -1081,6 +1082,3 @@ ul.visible {
     display: flex;
     justify-content: space-between;
     }
-
-
-
