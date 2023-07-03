@@ -30,6 +30,7 @@ height: 100%;
   position: absolute;
   z-index: 0;
   }
+ 
   
 /* botones de abrir y cerrar de la version movil */
 .abrir-menu {
@@ -399,7 +400,7 @@ stroke-dasharray: 10;
 .home__text {
   font-size: 2em;
 
-  }
+}
 
 }
 
@@ -686,6 +687,7 @@ ul.visible {
 }
 
 
+
 /* INICIO MEDIA QUERIES SERVICES*/
 
 @media (max-width:950px) {
@@ -719,7 +721,7 @@ ul.visible {
 }
 
 .service__subtitle {
-  font-size: 3vh;
+  font-size: 4vh;
   text-align:left;
   margin-left: 5%;
   line-height: 150%;
@@ -730,7 +732,7 @@ ul.visible {
   font-size: 2rem;
   margin: 5%;
   line-height: 150%; 
-  text-align: justify;
+  text-align: left;
 }
 
 /* blue*/
@@ -773,7 +775,7 @@ ul.visible {
   font-size: 2rem;
   margin: 5%;
   line-height: 150%; 
-  text-align: justify;
+  text-align: left;
 
 }
 
@@ -782,7 +784,6 @@ ul.visible {
 /* FIN MEDIA QUERIES SERVICES*/
 
 
-/*
   /*     SECTION TEAM   */
 
   .team__tittle {
@@ -978,7 +979,7 @@ ul.visible {
     justify-content: center;
     margin: 10px 3% 1em;
     margin-top: 10%;
-}
+  }
 
 .llamanos {
     margin-top: 2%;
@@ -1081,6 +1082,3 @@ ul.visible {
     display: flex;
     justify-content: space-between;
     }
-
-
-
