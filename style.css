@@ -7,6 +7,9 @@
   --azul: #4977CC;
   --azul-oscuro: #0071BC;
 }
+html{
+  scroll-behavior: smooth;
+}
 
 * {
   font-family: 'Nunito', sans-serif;
@@ -243,12 +246,16 @@ grid-row: 2/3;
 justify-self: start;
 align-self: end;
 border-radius: 2vh;
-font-size: 1.1em;
+font-size: 1.3em;
 z-index: 6;
 margin-bottom: 15%;
 cursor: pointer;
+font-weight: 500;
 }
-
+a {
+  text-decoration: none;
+  color: var(--blanco);
+}
 .button:hover {
 border: 1px solid;
 
@@ -761,11 +768,18 @@ a:hover {
 .card__button{
   width: 20vh;
   height: 5vh;
-  border-radius: 5px;
-  border: 0;
-  background-color: #38B549;
-  color: white;
-  font-size: clamp(0.5rem, 1.5vw, 1.5rem)
+  font-size: clamp(0.5rem, 1.5vw, 1.5rem);
+  color: var(--blanco);
+  background-color: var(--verde);
+  grid-column: 5/6;
+  grid-row: 2/3;
+  justify-self: end;
+  align-self: center;
+  border-radius: 2vh;
+  font-size: 1.1em;
+  z-index: 6;
+  margin-bottom: 15%;
+  cursor: pointer;
 }
 .card__button:hover{
   background-color:#118020;
@@ -780,7 +794,7 @@ a:hover {
   align-items: center;
   flex-direction: column;
   padding: 20px;
-  width: 20vh;
+  width: 40vh;
   margin: 10vw;
 }
 
@@ -801,8 +815,15 @@ a:hover {
   }
 
   .cards__card{
-      width: 20vw;
-      margin: 0;
-      
+      margin: 10px;
+      width: 50vh;
+      padding: 10px;
+      height: 40vw;
+  }
+  .card__boton{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-top: 10vh;
   }
 }
