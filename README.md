@@ -1,5 +1,4 @@
-![logo](./fotos equipo/LOGO.png)
-# Acercatech
+![logo](./fotos%20equipo/LOGO.png)
 
 ## Description
 The provided code is a website for ACERCATECH, a company that specializes in making technology accessible for businesses. The website includes several sections, such as a home section, services section, team section, and contact section.
