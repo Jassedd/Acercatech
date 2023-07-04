@@ -771,6 +771,11 @@ border: 1px solid;
   margin-right: 8%;
 }
 
+.button__services {
+width: 30vw;
+height: 6vh;
+}
+
 .service__img {
   width: 75%;
   margin: 10%;
