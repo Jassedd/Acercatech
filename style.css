@@ -619,6 +619,36 @@ margin-bottom: 5%;
     align-items: center;
 }
 
+.button__services {
+  color: var(--blanco);
+background-color: var(--verde);
+width: 12vw;
+height: 6vh;
+justify-self: start;
+align-self: center;
+border-radius: 2vh;
+font-size: 1.3em;
+margin-bottom: 2%;
+margin-top: 2%;
+border: var(--blanco);
+cursor: pointer;
+font-weight: 500;
+
+
+}
+a {
+  text-decoration: none;
+  color: var(--blanco);
+  align-self: center;
+
+}
+.button:hover {
+border: 1px solid;
+
+}
+
+
+
 .service__container__one {
     width: 40%;
     height: 100%;
@@ -655,7 +685,7 @@ margin-bottom: 5%;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding: 4%;
+    padding: 0% 4% 4% 4%;
     line-height: 150%;
 
 }
@@ -665,7 +695,7 @@ margin-bottom: 5%;
     display: flex;
     flex-direction:column;
     justify-content: center;
-    padding: 4%;
+    padding: 4% 4% 0% 4%;
     line-height: 150%;
     background-color: #0071BC;
 
