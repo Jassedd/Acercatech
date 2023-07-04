@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head> 
+  <title>ACERCATECH</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="reset" href="reset.css">
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+  
+</head>
+
+<body>     
+  <div id="particles-js"></div>
+
+<header class="header">
+  <button id="abrir" class="abrir-menu" id="abrir"><i class='bx bx-menu'></i></button>
+  <nav class="nav">
+    <div class="nav__logo1">
+      <img class="nav__img" src="imagenes home/LOGO.png" alt="acercate">
+    </div>
+    <div class="nav__logo2">
+      <img class="nav__img" src="imagenes home/logo-2.png" alt="acercate">
+    </div>
+    
+    <ul class="nav__links" class="repli" id="nav__lista">
+      <button class="cerrar-menu" id="cerrar"><i class='bx bx-x'></i></button>
+      <li><a href="#" class="nav__links nav__links-mofifier">Principal</a></li>
+      <li><a href="#cards" class="nav__links nav__links-mofifier">Servicios</a></li>
+      <li><a href="#team" class="nav__links nav__links-mofifier">Conócenos</a></li>
+      <li><a href="#contactanos" class="nav__links nav__links-mofifier">Contacto</a></li>
+  </ul>
+  </nav>
+</header>  
+  <main>
+    <section id="home">
+      <div class="home__blue">
+        <div class="home__text"><p><span class="home__hacemos">Hacemos</span><br> TECNOLOGÍA ACCESIBLE<br> PARA TU COMERCIO</p>
+        </div>
+        <button class="button"><a href="#cards">Servicios</a></button>
+    
+        <div class="home__img">
+          <img class="home__img-init" src="imagenes home/imagen  inicio.jpg" alt="initial-img">
+        </div>
+      </div>
+   
+      <div class="icon-ws">
+        <svg heigth="50" width="50">
+            <circle cx="25" cy="25" r=22 stroke="white" stroke-width="1" fill="none" ></circle>
+        </svg>
+        <i class='bx bxl-whatsapp'></i>
+      </div>
+    
+      <span class="nr">+34 654 43 432</span>
+      <div class="icons">
+          <div class="icons__icon">
+            <svg heigth="50" width="50">
+              <circle cx="25" cy="25" r=22 stroke="white" stroke-width="1" fill="none" ></circle>
+          </svg>
+              <i class='bx bxl-facebook-circle'></i>
+        </div>  
+
+          <div class="icons__icon">
+            <svg heigth="50" width="50">
+              <circle cx="25" cy="25" r=22 stroke="white" stroke-width="1" fill="none" ></circle>
+          </svg>
+              <i class='bx bxl-instagram' ></i>
+          </div>
+
+        <div class="icons__icon">
+          <svg heigth="50" width="50">
+          <circle cx="25" cy="25" r=22 stroke="white" stroke-width="1" fill="none" ></circle>
+        </svg>
+            <i class='bx bxl-twitter'></i>
+        </div>
+     </div>
+      <div class="home__description-container">
+        <div class="home__description"><p>Nos enfocamos en el hacer para crear un mundo más justo
+          con los entornos digitales, ayudando a los comercios 
+          con soluciones basadas en sus necesidades.</p></div>
+      </div>
+    </section>    
+
+
+      <!----------Seccion Cartas---------------->
+      <section id="cards">
+        <div class="cards__card">
+          <img class="card__figure" src="./image/technology 1300.png" alt="Figura Impulsatech">
+          <h4 class="card__h4">Impulsatech</h4>
+          <p class="card__p"> Para tu negocio:<br>
+            +Ventas<br>
+            +fidelización de clientes<br>
+            +Comunidad<br>
+            +Visibilidad
+          </p>
+            <button class="card__button"><a class="button__link" href="#impulsatech">+Info</a></button>
+        </div>
+
+        <div class="cards__card">
+          <img class="card__figure" src="./image/digital 1300.png" alt="Figura Mercadeatech">
+          <h4 class="card__h4">Mercadeatech</h4>
+          <p class="card__p">Tus futuros clientes desean conocerte... <br>
+            ¡Entra al mundo digital y llega hasta donde nunca has llegado!
+          </p>
+            <button class="card__button"><a class="button__link" href="#mercadeatech">+Info</button></a>
+        </div>
+  
+        <div class="cards__card">
+          <img class="card__figure" src="./image/bullhorn 1300.png" alt="Figura Formatech">
+          <h4 class="card__h4">Formatech</h4>
+          <p class="card__p">¡Rompe las barreras digitales!<br>
+            Te lo enseñamos fácil, sencillo y en poco tiempo.
+          </p>
+            <button class="card__button"><a class="button__link" href="#formatech">+Info</button></a>
+        </div>
+      </section>
+      <p></p>
+
+    <!-----SERVICES SECTION -------------->
+    <section id="services">
+      <section class="service">
+        <div class="service__container__one">
+          <img class="service__img" src="fotos servicios/img-IMPUSLATE.png" alt="image of people width computer">
+        </div>
+        <div class="service__container__two" id="impulsatech">
+          <h2 class="service__title">IMPULSATE&#60;CH&#62;</h2>
+          <p class="service__text">Nuestra oferta de servicios integrales de creación de páginas web, redes sociales 
+            y gestión digital está diseñada para ayudar a su comercio a (entrar en el mundo digital, acercándose a sus 
+            antiguos y nuevos clientes, haciendo que su empresa aumente sus ventas!) cerrar la brecha digital y prosperar 
+            en el mundo en línea.<br><br>
+          </p>
+          <h3 class="service__subtitle">Creación de sitios web</h3>
+          <p class="service__text">Diseñamos y desarrollamos sitios web profesionales y atractivos que reflejan 
+              la identidad de su empresa. Desde sitios web informativos hasta tiendas en línea 
+              completas.
+          </p>
+          <h3 class="service__subtitle">Redes sociales</h3>
+          <p class="service__text">Las redes sociales se han convertido en una herramienta invaluable para 
+            las empresas en la era digital. Creamos estrategias de contenido atractivas 
+            y diseñamos campañas publicitarias eficaces para aumentar su visibilidad, atraer 
+            a sus clientes y generar más ventas, engagement, etc.
+          </p>
+          <h3 class="service__subtitle">Gestión digital</h3>
+          <p class="service__text">La gestión digital abarca aspectos clave como la optimización de motores de búsqueda 
+            (SEO), el marketing por correo electrónico, la gestión de reputación en línea y 
+            el análisis de datos. Nuestro equipo experto en gestión digital se encargará 
+            de optimizar su presencia en línea.
+          </p>
+          <button class="button__services">
+            <a href="#contactanos">contactar</a>
+          </button>
+        </div>
+      </section>
+
+      <section id="services">
+        <section class="service">
+          <div class="service__container__one__blue">
+            <img class="service__img__blue" src="fotos servicios/img-directorio.png" alt="image of people width computer">
+          </div>
+          <div class="service__container__two__blue" id="mercadeatech">
+            <h2 class="service__title__white">MERCADEATE&#60;CH&#62;</h2>
+            <p class="service__text__white">Diseñado específicamente para integrar al mercado digital a los pequeños comercios de la comunidad y 
+              servir como enlace entre ellos y los grandes comercios.<br><br>
+            </p>
+            <h3 class="service__subtitle__white">Integración al mercado digital 
+              de pequeños comercios de la comunidad:</h3>
+            <p class="service__text__white">Entendemos que muchos pequeños comercios enfrentan desafíos para establecer su presencia en línea 
+              y aprovechar las oportunidades que ofrece el mercado digital. Nuestro servicio de directorio les brinda la plataforma 
+              y visibilidad necesarias para expandir su alcance y conectarse con una audiencia más amplia.
+            </p>
+            <h3 class="service__subtitle__white">Enlace entre pequeños y grandes comercios:</h3>
+            <p class="service__text__white">Reconocemos la importancia de fomentar la colaboración y el crecimiento conjunto entre pequeños 
+              y grandes comercios. Nuestro servicio de directorio actúa como un puente entre estos dos segmentos comerciales, facilitando 
+              la conexión y colaboración entre ellos. A través de nuestro directorio, los pequeños comercios pueden establecer alianzas 
+              estratégicas, negociar acuerdos y aprovechar las oportunidades de crecimiento que surgen al trabajar junto a los grandes comercios.
+            </p>
+            <button class="button__services">
+              <a href="#contactanos">contactar</a>
+            </button>
+          </div>
+        </section>
+    
+      
+        <section id="services">
+          <section class="service">
+            <div class="service__container__one">
+              <img class="service__img" src="fotos servicios/img-formatech.png" alt="image of people width computer">
+            </div>
+            <div class="service__container__two" id="formatech">
+              <h2 class="service__title">FORMATE&#60;CH&#62;</h2>
+              <p class="service__text">Está diseñado para brindar acompañamiento y capacitación en la autogestión de redes 
+                sociales y el mantenimiento básico de la web.<br><br>
+              </p>
+              <h3 class="service__subtitle"> Acompañamiento para la autogestión de redes sociales:</h3>
+              <p class="service__text">Nuestro servicio de Formación Tech ofrece acompañamiento y capacitación personalizada 
+                en la gestión de redes sociales. Le brindaremos las herramientas y estrategias necesarias para crear contenido atractivo, 
+                establecer una comunidad en línea, gestionar la interacción con los seguidores y utilizar las mejores prácticas en marketing digital.
+              </p>
+              <h3 class="service__subtitle">Mantenimiento básico del sitio web:</h3>
+              <p class="service__text">Le proporcionará los conocimientos necesarios para realizar el mantenimiento básico de su sitio web. Le enseñaremos 
+                cómo realizar actualizaciones de contenido, optimizar el rendimiento, realizar copias de seguridad y solucionar problemas comunes. Además, 
+                le brindaremos orientación sobre las mejores prácticas de diseño web y cómo mejorar la usabilidad y la experiencia del usuario.
+              </p>
+              <button class="button__services">
+                <a href="#contactanos">contactar</a>
+              </button>
+            </div>
+          </section>
+      </section>
+  
+
+<!---------- TEAM SECTION ------------>
+    
+
+<section class="team" id="team">
+  <div class="team__tittle">EQUIPO</div>
+  <img class="team__logo" src="./fotos equipo/LOGO.png" alt="logo">
+  <div class="team__photos">
+      <div class="team__section">
+          <h3 class="team__text">EQUIPO DE DESARROLLO</h3>
+          <img src="./fotos equipo/Emily (1).jpg" alt="Emily" class="team__photo">
+          <p class="team__names">Emily</p>
+          <img src="./fotos equipo/Diego.jpg" alt="Diego" class="team__photo">
+          <p class="team__names">Diego</p>
+      </div>
+      <div class="team__section">
+          <h3 class="team__text">REDES SOCIALES</h3>
+          <img src="./fotos equipo/luis.jpg" alt="Luis" class="team__photo">
+          <p class="team__names">Luis</p>
+      </div>
+      <div class="team__section">
+          <h3 class="team__text">EQUIPO DE FORMACIÓN</h3>
+          <img src="./fotos equipo/Adriana.jpg" alt="Adriana" class="team__photo">
+          <p class="team__names">Adriana</p>
+          <img src="./fotos equipo/Jassed.jpg" alt="Jassed" class="team__photo">
+          <p class="team__names">Jassed</p>
+      </div>
+  </div>
+
+
+
+<!---------- FIN TEAM SECTION ------------>
+
+  
+
+    <div class="content-footer">
+        <section class="form-circle">
+        <section class="form-whats" id="contactanos"> <!--section 1-->
+        <form class="form">
+            <label for="nombre">Nombre</label>
+            <br>
+            <input type="text" maxlength="30" id="nombre">
+            <br>
+            <label for="email">E-mail</E-mail></label>
+            <br>
+            <input type="text" maxlength="50" id="email">
+            <br>
+            <label for="cuentanos" class="cuentanos-cuadro">Cuéntanos cómo podemos ayudarte</label>
+            <br>
+            <textarea name="texto" rows="8" cols="20"></textarea>
+            <br>
+            <input type="submit" class="form__button" onclick="mialerta();">
+            <br>
+        </form>
+        
+        <div class="llamanos">
+            <pre>Si lo prefieres, llámanos</pre>
+        <div class="whatsapp-tel">
+            <img class="telefono" src="./foto footer/wsp.png">
+            <pre>  +34 654 43 432</pre>
+        </div>
+        </div>
+    </section>
+    
+  
+<section class="content-circle">  <!--section 2-->
+    <div class="circle"> 
+        <img src="./foto footer/captura_equipo.png" class="foto-equipo">
+    </div>
+    <div class="logo-social">
+    <div class="logo">
+        <img src="./foto footer/logo.png" class="logo"></div>
+    <div class="social-media">
+        <img src="./foto footer/face.png" class="face">
+        <img src="./foto footer/insta.png" class="insta">
+        <img src="./foto footer/twitter.png" class="twitter">
+        </div>
+    </div>
+</section>
+</section>
+
+
+<section class="footer">  <!--section 3-->
+    <span id="slot0">&copy;2023 Acercate&lt;ch&gt;. Todos los derechos reservados.</span>
+    <span id="slot1">Aviso legal.</span>
+    <span id="slot2">Protección de datos</span>
+    <span id="slot3">Cookies</span>
+</section>
+</div>
+
+
+
+<script src="script.js"></script>
+  <script src="particles.min.js"></script>
+  <script src="particlesjs-config.json"></script>
+
+</body>
+</html>
