@@ -2,7 +2,7 @@
 # Acercatech
 
 ## Description
-The provided code is a website for ACERCATECH, a company that specializes in making technology accessible for businesses. The website includes several sections, such as a home section, services section, and team section.
+The provided code is a website for ACERCATECH, a company that specializes in making technology accessible for businesses. The website includes several sections, such as a home section, services section, team section, and contact section.
 
 ## Setup
 Follow these steps to set up the project correctly:
