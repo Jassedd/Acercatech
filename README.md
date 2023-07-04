@@ -8,6 +8,9 @@ Follow these steps to set up the project correctly:
 1. Clone this repository to your local machine.
 2. Open the index.html file in your web browser.
 
+## Figma
+https://www.figma.com/file/fZBEDLv2soJn7nS2aAfSMN/CONSULTORIA-TECH?type=design&node-id=177%3A166&mode=design&t=6VLvRevAHVkAaRwk-1
+
 ## File Structure
 - `index.html`: This is the main file that contains the HTML code of the page.
 - `reset.css`: This file contains CSS styles to reset the default styles of the browser.
